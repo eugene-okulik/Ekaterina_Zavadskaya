@@ -1,8 +1,7 @@
 """Даны числа x и y. Получить x − y / 1 + xy"""
 
 
-FIRST_VALUE = 3
-SECOND_VALUE = 5
+VALUE1 = 3
+VALUE2 = 5
 
-print(f'total is {(FIRST_VALUE - SECOND_VALUE) /
-                  (1 + FIRST_VALUE * SECOND_VALUE)}')
+print(f'total is {(VALUE1 - VALUE2) / (1 + VALUE1 * VALUE2)}')
