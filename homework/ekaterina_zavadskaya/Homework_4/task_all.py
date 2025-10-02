@@ -33,8 +33,7 @@ MY_DICT = {"my_tuple": (1, 2.2, "Hello", (6, 7, "mouse"), [4, 5.5, "dog"]),
                "kilo": 14,
                "hair": "blond"
            },
-           "my_set": {80, "sun", -90, 100, "cloud"}
-}
+           "my_set": {80, "sun", -90, 100, "cloud"}}
 # 1
 print("1)", MY_DICT["my_tuple"][-1])
 
