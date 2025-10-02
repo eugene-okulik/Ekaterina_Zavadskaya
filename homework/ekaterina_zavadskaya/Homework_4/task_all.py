@@ -24,7 +24,6 @@
 
 """
 
-
 MY_DICT = {"my_tuple": (1, 2.2, "Hello", (6, 7, "mouse"), [4, 5.5, "dog"]),
            "my_list": [44, 15.6, "home", "door", (77, 78, 79)],
            "my_dict": {
