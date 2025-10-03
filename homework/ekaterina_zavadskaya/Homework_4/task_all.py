@@ -42,7 +42,7 @@ MY_DICT["my_list"].append("new element")
 MY_DICT["my_list"].pop(1)
 
 # 3
-MY_DICT["my_dict"]["(i am a tuple, )"] = "any query"
+MY_DICT["my_dict"][("i am a tuple", )] = "any query"
 del MY_DICT["my_dict"]["age"]
 
 # 4
