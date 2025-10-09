@@ -27,5 +27,9 @@ TOTAL = "результат операции: 42"
 # TOTAL = "результат операции: 514"
 # TOTAL = "результат работы программы: 9"
 
-ONLY_NUMBER = float(TOTAL.split()[::-1][0]) + 10
-print(ONLY_NUMBER)
+# ONLY_NUMBER = float(TOTAL.split()[::-1][0]) + 10
+# print(ONLY_NUMBER)
+
+STEP_1 = TOTAL.index(":")
+STEP_2 = float(TOTAL[STEP_1 + 1:])
+print(STEP_2 + 10)
